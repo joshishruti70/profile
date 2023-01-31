@@ -1,0 +1,9 @@
+<div>
+    <h2>Welcome to Players' Portal</h2>
+    <form #insert="ngForm" (ngSubmit)="insertData(insert)">
+        <input type="text" name="id" id="id" ngModel="id">
+        <input type="text" name="name" id="name" ngModel="name">
+        <input type="submit" value="submit">
+
+    </form>
+</div>
